@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  background-color: black;
+  
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size:xx-large;
+}
+
+pre{
+   text-align: center;  
+   
+}
+
+.lab label {
+  
+  color: black;
+   font-size: large;
+  padding: 25px;
+  font-weight: bolder;
+  background-color: white;
+  width: 7%;
+  text-align: center;
+}
+
+button{
+   color: black;
+   font-weight:1000;
+   font-size: large;
+   padding: 25px;
+   cursor: pointer;
+
+  
+}
+
+.input {
+   padding: 15px;
+   background-color: black;
+   border: 5px solid white;
+   size:100px;
+   font-size: xx-large;
+   width: 15%;
+
+   
+}
+
+
+
+.lab {
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+   margin: 5%;
+   
+}
+
+
+.scores{
+   display: flex;
+   padding: 10%;
+   justify-content:space-between;
+   margin-right: 15%;
+   
+   font-size: xx-large;
+}
+
+
+div .startguess{
+padding-top: 0.5px;
+ }

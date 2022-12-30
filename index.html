@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="coimbatore">
+      <h1> Guess the number😜 in below box! <button onclick="reset()">Click to reset</button> </h1> <pre>  (Between 1 to 25) </pre>
+      
+      <div class="lab">
+        <label id="guess">??</label>
+        <input class="input" type="number" value="" />
+        <button onclick="labelFunction()">Check!!</button>
+       
+      </div>
+    </div>
+
+    <div>
+        <h1 class="startguess">Start guessing</h1>
+    </div>
+
+    <div class="scores">
+        
+      <pre>
+           💯 Score: <span class="score">20</span>
+            </pre
+      >
+      <pre id="highscore">
+         🤑 Highscore: <span>0</span>
+                 </pre
+      >
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
